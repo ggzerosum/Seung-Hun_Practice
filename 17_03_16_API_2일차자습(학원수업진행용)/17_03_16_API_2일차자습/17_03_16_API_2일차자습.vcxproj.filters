@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. MainGame">
+      <UniqueIdentifier>{77b01658-556b-4ee0-b123-30862325f1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Headers">
+      <UniqueIdentifier>{433d86c4-9099-40e8-8e2e-b63d436344a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Headers\Includes">
+      <UniqueIdentifier>{9cac3cbb-cbad-43a4-a598-0edfc150c338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{dc929016-038b-4bb7-889e-c9d33b624127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Others">
+      <UniqueIdentifier>{aba4ddb6-57b5-4d45-8050-84f80d49399f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Man">
+      <UniqueIdentifier>{2746f77b-5579-4720-a8a8-4a06c76e3db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Man\00. Player">
+      <UniqueIdentifier>{6cb8113a-fa44-4b34-a83c-ab874fa3d40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Man\01. Monster">
+      <UniqueIdentifier>{c15bb7a3-8522-40a0-99ff-3e83bb492026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Things">
+      <UniqueIdentifier>{2c775551-1a63-4e99-9140-347fd3c4dbf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Things\02. Bullet">
+      <UniqueIdentifier>{18957724-0912-46f6-9d82-cd4c7f60d7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Manager">
+      <UniqueIdentifier>{4e23b618-0354-48af-8aaf-f3b825714bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Manager\00. ObjFactory">
+      <UniqueIdentifier>{951a4bd2-7b8b-4e72-aec7-e050c8794f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Manager\01. KeyMgr">
+      <UniqueIdentifier>{e6f80b7d-ef30-464d-8694-07dd0dc88734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Manager\ObjMgr">
+      <UniqueIdentifier>{b3a8016a-ec3d-49ee-a1b7-fe3d1acc95ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일\Headers\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>헤더 파일\Headers\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="17_03_16_API_2일차자습.h">
+      <Filter>헤더 파일\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Man.h">
+      <Filter>소스 파일\01. Object\00. Man</Filter>
+    </ClInclude>
+    <ClInclude Include="Things.h">
+      <Filter>소스 파일\01. Object\01. Things</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01. Object\00. Man\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\01. Object\00. Man\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>소스 파일\01. Object\01. Things\02. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>소스 파일\03. Manager\00. ObjFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\03. Manager\01. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>소스 파일\03. Manager\ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>헤더 파일\Headers\Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17_03_16_API_2일차자습.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Man.cpp">
+      <Filter>소스 파일\01. Object\00. Man</Filter>
+    </ClCompile>
+    <ClCompile Include="Things.cpp">
+      <Filter>소스 파일\01. Object\01. Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01. Object\00. Man\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\01. Object\00. Man\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일\01. Object\01. Things\02. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\03. Manager\01. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>소스 파일\03. Manager\ObjMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="17_03_16_API_2일차자습.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="17_03_16_API_2일차자습.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
