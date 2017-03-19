@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Includes">
+      <UniqueIdentifier>{d16126ad-82de-49e6-9d89-a4eb8a3da3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99. Manager">
+      <UniqueIdentifier>{26065f3e-c00b-4acb-81b3-6383a2d07056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99. Manager\00. Login">
+      <UniqueIdentifier>{c7f92803-db2d-4a55-b710-1cb446e1b0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99. Manager\00. Login\Class_PlayerInfo_List">
+      <UniqueIdentifier>{a4fced96-c33b-4706-9b1f-ec8167a684e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Includes\공부 내용 사이트">
+      <UniqueIdentifier>{70ae1b79-93a3-4eec-b0bc-10753cf0a6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01. Object">
+      <UniqueIdentifier>{07bd03e4-9a73-47ad-a8de-516dc42f9999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01. Object\Player">
+      <UniqueIdentifier>{f0bc5931-35c6-480c-8246-cd83acb36479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\00. Main">
+      <UniqueIdentifier>{d308f1d0-ea50-4da0-b0c0-c3b623536f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Stage">
+      <UniqueIdentifier>{324f7ab3-9968-47f5-a3e0-9da23f13a275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Stage\Menu">
+      <UniqueIdentifier>{1185ff19-b15f-4c03-a5a5-04f73386c094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Stage\Stage">
+      <UniqueIdentifier>{9239adbd-1835-41e8-8710-478a6719775f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Stage\Menu\Login_Account">
+      <UniqueIdentifier>{ecd5fe7f-9631-4dc3-af6e-08f43585fe7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Stage\Menu\Make_Account">
+      <UniqueIdentifier>{42d3171e-7ee2-4a13-9323-01a45a58491b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02. Stage\Menu\Normal_Menu">
+      <UniqueIdentifier>{998501be-1c7d-4931-9cd7-0185cd8f51f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99. Manager\01. StageMgr">
+      <UniqueIdentifier>{85927fac-c272-41db-9190-23b43084855d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\99. Manager\ObjFactory">
+      <UniqueIdentifier>{1c0255e5-fc50-4cda-9995-7f15ecdaaef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\01. Object\Account">
+      <UniqueIdentifier>{2619a221-2fdb-4ee1-babe-6acdc2337fa5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\01. Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>Source Files\01. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfo_List.cpp">
+      <Filter>Source Files\99. Manager\00. Login\Class_PlayerInfo_List</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Source Files\00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files\02. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_MakeAccount.cpp">
+      <Filter>Source Files\02. Stage\Menu\Make_Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_LoginAccount.cpp">
+      <Filter>Source Files\02. Stage\Menu\Login_Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage_Menu.cpp">
+      <Filter>Source Files\02. Stage\Menu\Normal_Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CstageMgr.cpp">
+      <Filter>Source Files\99. Manager\01. StageMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files\01. Object\Account</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\01. Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>Source Files\01. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo_List.h">
+      <Filter>Source Files\99. Manager\00. Login\Class_PlayerInfo_List</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Header Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="String 설명.h">
+      <Filter>Header Files\Includes\공부 내용 사이트</Filter>
+    </ClInclude>
+    <ClInclude Include="Using.h">
+      <Filter>Header Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Source Files\00. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Source Files\02. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_MakeAccount.h">
+      <Filter>Source Files\02. Stage\Menu\Make_Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_LoginAccount.h">
+      <Filter>Source Files\02. Stage\Menu\Login_Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage_Menu.h">
+      <Filter>Source Files\02. Stage\Menu\Normal_Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CstageMgr.h">
+      <Filter>Source Files\99. Manager\01. StageMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Header Files\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>Source Files\99. Manager\ObjFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Source Files\01. Object\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files\Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
